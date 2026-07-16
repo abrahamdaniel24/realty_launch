@@ -378,6 +378,23 @@ function CaseStudies() {
                   </li>
                 ))}
               </ul>
+              
+              {/* CTA Button for Miami Card */}
+              {i === 0 && (
+                <div className="mt-8">
+                  <a
+                    href="https://realty-launch-miami.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-full items-center justify-center gap-2 px-5 py-3 rounded-xl border border-gold-400/50 text-gold-400 font-bold text-sm bg-gold-400/5 hover:bg-gold-400 hover:text-navy-950 transition-all duration-300"
+                  >
+                    Launch Interactive Demo
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
