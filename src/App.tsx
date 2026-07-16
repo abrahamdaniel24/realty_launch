@@ -381,19 +381,25 @@ function CaseStudies() {
               
               {/* CTA Button for Miami Card */}
               {i === 0 && (
-                <div className="mt-8">
-                  <a
-                    href="https://realty-launch-miami.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 px-5 py-3 rounded-xl border border-gold-400/50 text-gold-400 font-bold text-sm bg-gold-400/5 hover:bg-gold-400 hover:text-navy-950 transition-all duration-300"
+                <a
+                  href="https://realty-launch-miami.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center justify-center gap-2 px-5 py-3 w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 text-navy-950 font-bold text-sm rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] mt-8 cursor-pointer z-10"
+                >
+                  <span>Launch Interactive Demo</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2.5}
+                    stroke="currentColor"
+                    className="w-4 h-4"
                   >
-                    Launch Interactive Demo
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                </div>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
               )}
             </div>
           ))}
