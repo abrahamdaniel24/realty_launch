@@ -383,7 +383,7 @@ function CaseStudies() {
               {i === 0 && (
                 <div className="mt-8">
                   <a
-                    href="https://019f710c-573d-7322-ad09-0668cbbfe701.arena.site/"
+                    href="https://miami-updatee.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
