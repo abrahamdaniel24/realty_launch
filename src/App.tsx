@@ -379,29 +379,49 @@ function CaseStudies() {
                 ))}
               </ul>
               
-               {/* CTA Button for Miami Card */}
+              {/* CTA Buttons */}
               {i === 0 && (
-                <div className="mt-8">
-                  <a
-                    href="https://miami-updatee.vercel.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="inline-flex items-center justify-center gap-2 px-5 py-3 w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 text-navy-950 font-bold text-sm rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] mt-4 cursor-pointer z-10"
+                <a
+                  href="https://miami-updatee.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center justify-center gap-2 px-5 py-3 w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 text-navy-950 font-bold text-sm rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] mt-8 cursor-pointer z-10"
+                >
+                  <span>Launch Interactive Demo</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2.5}
+                    stroke="currentColor"
+                    className="w-4 h-4"
                   >
-                    <span>Launch Interactive Demo</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </a>
-                </div>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              )}
+              
+              {i === 1 && (
+                <a
+                  href="https://austin-real-estate-website.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center justify-center gap-2 px-5 py-3 w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 text-navy-950 font-bold text-sm rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] mt-8 cursor-pointer z-10"
+                >
+                  <span>Launch Interactive Demo</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2.5}
+                    stroke="currentColor"
+                    className="w-4 h-4"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
               )}
             </div>
           ))}
